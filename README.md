@@ -4,22 +4,39 @@ A Streamlit application that simulates a full-service legal team using multiple 
 
 ## Features
 
-- **Specialized Legal AI Agent Team**
+### AI Agent Specialists
 
-  - **Legal Researcher**: Equipped with DuckDuckGo search tool to find and cite relevant legal cases and precedents. Provides detailed research summaries with sources and references specific sections from uploaded documents.
+- **Legal Researcher**
+  - Conducts comprehensive legal research
+  - Finds and cites relevant cases and precedents
+  - Uses DuckDuckGo search integration
+  - References specific document sections in findings
 
-  - **Contract Analyst**: Specializes in thorough contract review, identifying key terms, obligations, and potential issues. References specific clauses from documents for detailed analysis.
+- **Contract Analyst**
+  - Reviews contracts in detail
+  - Identifies key terms and obligations
+  - Highlights potential legal issues
+  - Provides clause-specific analysis
 
-  - **Legal Strategist**: Focuses on developing comprehensive legal strategies, providing actionable recommendations while considering both risks and opportunities.
+- **Legal Strategist**
+  - Develops legal strategies
+  - Assesses risks and opportunities
+  - Provides actionable recommendations
+  - Creates strategic implementation plans
 
-  - **Team Lead**: Coordinates analysis between team members, ensures comprehensive responses, properly sourced recommendations, and references to specific document parts. Acts as an Agent Team coordinator for all three agents.
+- **Team Lead**
+  - Coordinates between specialists
+  - Ensures comprehensive analysis
+  - Verifies source citations
+  - Maintains document reference accuracy
 
-- **Document Analysis Types**
-  - Contract Review - Done by Contract Analyst
-  - Legal Research - Done by Legal Researcher
-  - Risk Assessment - Done by Legal Strategist, Contract Analyst
-  - Compliance Check - Done by Legal Strategist, Legal Researcher, Contract Analyst
-  - Custom Queries - Done by Agent Team - Legal Researcher, Legal Strategist, Contract Analyst
+### Analysis Types Available
+
+- **Contract Review**: Detailed analysis by Contract Analyst
+- **Legal Research**: In-depth research by Legal Researcher
+- **Risk Assessment**: Combined analysis by Legal Strategist and Contract Analyst
+- **Compliance Check**: Comprehensive review by all specialists
+- **Custom Query**: Flexible analysis using all available agents
 
 ## Prerequisites
 
